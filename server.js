@@ -12,7 +12,12 @@ try {
 
 const app = express();
 
-process.loadEnvFile();
+// Try to load .env file
+try {
+  process.loadEnvFile();
+} catch (error) {
+  console.log("No .env file present, setting port to 3000")
+}
 const port = process.env.PORT || 3000;
 
 // API route
