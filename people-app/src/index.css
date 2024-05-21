@@ -2,3 +2,31 @@
 :root {
   --bs-card-inner-border-radius: 20px;
 }
+.btn{
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+  background-color: red;
+  font-family: 'Pokemon Solid', sans-serif;
+  .nav-link{
+    color:#ffcb05;
+    font-size:30px;
+    /* text-shadow: 4px 4px 0px blue; */
+    -webkit-text-stroke: 2px#3a5ba7;
+    rotate: -15deg;
+  }
+}
+
+.button-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-bar-container img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}

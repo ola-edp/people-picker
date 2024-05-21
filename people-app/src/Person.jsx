@@ -5,7 +5,7 @@ export const Person = (props) => {
   const width = Math.floor(Math.random() * (202 - 198 + 1)) + 198;
   const height = Math.floor(Math.random() * (202 - 198 + 1)) + 198;
   return <section className="Person card flex-grow-1">
-    <img src={`http://placeholdmon.vercel.app/${width}x${height}`} className='card-img-top' />
+    <img src={`${person.imageUrl}`} className='card-img-top' height="250px" />
     <div className='card-body'>
       <h3 className='card-title'>{person.first} {person.last}</h3>
       <table>

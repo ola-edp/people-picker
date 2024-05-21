@@ -1,0 +1,7 @@
+.Register {
+  & dialog {
+    width: 85vw;
+    max-width: 500px;
+  }
+
+}

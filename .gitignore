@@ -1,2 +1,7 @@
 node_modules/
 .env
+# mongo database
+data/
+
+# VS Code config
+.vscode/

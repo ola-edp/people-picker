@@ -4,14 +4,19 @@
   "description": "Provides a list of people to choose from",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "start": "node --watch ./server.js",
+    "mongo": "mongod --dbpath ./data/db --port 27017",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1"
   }
 }
